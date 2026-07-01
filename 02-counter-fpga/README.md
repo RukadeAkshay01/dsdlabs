@@ -44,7 +44,7 @@ The folder `scripts/` contains several TCL scripts to create the project and gen
 The scripts are hopefully easy enough to understand and modify if needed.  For now, the only real thing you need to do is type:
 
 ```sh
-make
+make bitfile
 ```
 
 on the command line.  Assuming that you have the Xilinx tools set up properly in your system path, this should result in the files getting compiled, and finally a `.bit` file (bitstream) will be generated.
